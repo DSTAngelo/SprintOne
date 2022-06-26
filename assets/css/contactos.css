@@ -1,7 +1,6 @@
 section.formcontato{
     padding: 5%;
     margin: 2%;
-     background-color: var(--colorFondoSecundario);
 }
 
 section.formcontato div.formcontato__contacto{
@@ -78,7 +77,7 @@ section.formcontato textarea.formcontato__textarea{
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
-    margin-bottom: 1.5em;
+    margin-bottom: 2.9em;
     resize: none;
 }
 

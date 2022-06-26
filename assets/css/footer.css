@@ -1,0 +1,22 @@
+section.footer {
+    padding: 2%;
+    margin: 2%;
+    background-color: var(--colorFondoSecundario);
+}
+
+section.footer div.footer__rodape{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+section.footer p{
+    font: normal 700 22px 'Raleway', sans-serif;
+    line-height: 19px;
+    color: var(--colorTituloText);
+}
+
+section.footer p:nth-child(2){
+    margin-left: 5%;
+    color: black;
+}
