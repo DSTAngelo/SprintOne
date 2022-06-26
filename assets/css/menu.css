@@ -45,20 +45,6 @@
         line-height: 19px;
     }
 
-    section.menu nav ul.menu__list li a:hover {
-        color: var(--colorTextos); /* #8dc9e6 */
-        text-decoration: underline;
-    }
-
-    section.menu nav ul.menu__list li a.active {
-        color: var(--colorTextos); /* #8dc9e6 */
-        text-decoration: underline;
-    }
-
-    section.menu nav ul.menu__list li a.active:hover {
-        color: var(--colorTextos); /* #8dc9e6 */
-        text-decoration: underline;
-    }
 
     section.menu nav ul.menu__list li:nth-child(6){
         color: var(--colorTituloText); /* #464646 */

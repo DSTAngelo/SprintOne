@@ -1,0 +1,94 @@
+/* Menu - Nav */
+
+section.menu nav ul.menu__list li a:hover {
+        color: var(--colorTextos); /* #8dc9e6 */
+        text-decoration: underline;
+    }
+
+section.menu nav ul.menu__list li a.active {
+        color: var(--colorTextos); /* #8dc9e6 */
+        text-decoration: underline;
+    }
+
+section.menu nav ul.menu__list li a.active:hover {
+        color: var(--colorTextos); /* #8dc9e6 */
+        text-decoration: underline;
+    }
+
+
+
+/* Experiencia Profesional Imagenes Efectos*/ 
+
+section.experience  img.imagenRod{
+    border-color: var(--ColorBotonEncendido);
+    border-radius: 20px;
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    -ms-border-radius: 20;
+    -o-border-radius: 20;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    -webkit-box-shadow: 0px 14px 56px -11px var(--ColorBotonEncendido);
+         box-shadow: 0px 14px 50px -11px var(--ColorBotonEncendido);
+}
+
+
+section.experience  img.imagenRod:hover{
+    -webkit-box-shadow: 0px 14px 56px -11px var(--ColorBotonEncendido);
+         box-shadow: 0px 14px 65px -11px var(--ColorBotonEncendido);
+}
+
+/* Experiencia Profesional Botones */
+
+section.experience button.experiencia__botao--repo:hover{
+    background-color: var(--ColorBotonEncendido);
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    -webkit-box-shadow: 0px 14px 56px -11px var(--ColorBotonEncendido);
+         box-shadow: 0px 14px 56px -11px var(--ColorBotonEncendido);
+    color: #ffffff;
+}
+
+section.experience button.experience__botao--demo:hover{
+   background-color: var(--ColorBotonEncendido);
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    -webkit-box-shadow: 0px 14px 56px -11px var(--ColorBotonEncendido);
+         box-shadow: 0px 14px 56px -11px var(--ColorBotonEncendido);
+    color: #ffffff;
+}
+
+
+/* Contactos input */
+
+section.formcontato input.formcontato__input:hover{
+     border-color: var(--ColorBotonEncendido);
+     border-bottom: 1px solid var(--ColorBotonEncendido);
+     -webkit-box-shadow: 0px 14px 56px -11px var(--ColorBotonEncendido);
+           box-shadow: 0px 14px 56px -11px var(--ColorBotonEncendido);
+}
+
+section.formcontato textarea.formcontato__textarea:hover{
+     border-color: var(--ColorBotonEncendido);
+     border-bottom: 1px solid var(--ColorBotonEncendido);
+     -webkit-box-shadow: 0px 14px 56px -11px var(--ColorBotonEncendido);
+           box-shadow: 0px 14px 56px -11px var(--ColorBotonEncendido);
+}
+
+section.formcontato button.formcontato__botao:hover{
+background-color: var(--ColorBotonEncendido);
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    -webkit-box-shadow: 0px 14px 56px -11px var(--ColorBotonEncendido);
+         box-shadow: 0px 14px 56px -11px var(--ColorBotonEncendido);
+    color: #ffffff;
+}

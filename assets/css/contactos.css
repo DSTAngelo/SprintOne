@@ -1,0 +1,99 @@
+section.formcontato{
+    padding: 5%;
+    margin: 2%;
+     background-color: var(--colorFondoSecundario);
+}
+
+section.formcontato div.formcontato__contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+section.formcontato div.formcontato__text{
+ display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+section.formcontato h2.formcontato__title{
+    font: normal 700 32px 'Raleway', sans-serif;
+    line-height: 38px;
+    color: var(--colorTituloText);
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+section.formcontato h3.formcontato__subtext{
+    font: normal 500 16px 'Raleway', sans-serif;
+    line-height: 19px;
+    color: var(--colorTituloText);
+}
+
+section.formcontato div.formcontato__form_total{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 5%;
+}
+
+section.formcontato input.formcontato__input{
+    display: flex;
+    background-color: var(--colorBox);
+    flex-direction: column;
+    align-items: flex-start;
+    font: normal 400 20px 'Raleway', sans-serif;
+    width: 656px;
+    height: 56px;
+    gap: 10px;
+    margin-bottom: 2%;
+    padding:1px 20px;
+    border: 1px solid var(--colorBox);
+    border-bottom: .2em solid var(--colorTextos);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+section.formcontato textarea.formcontato__textarea{
+    display: flex;
+    background-color: var(--colorBox);
+    flex-direction: column;
+    align-items: flex-start;
+    font: normal 400 20px 'Raleway', sans-serif;
+    width: 656px;
+    height: 133px;
+    gap: 10px;
+    padding:10px 20px;
+    border: 1px solid var(--colorBox);
+    border-bottom: .2em solid var(--colorTextos);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-bottom: 1.5em;
+    resize: none;
+}
+
+section.formcontato button.formcontato__botao{
+   width: 150px;
+   height: 50px;
+   border-radius: 7px;
+   border-color: var(--ColorBotonEncendido);
+   color: var(--ColorBotonEncendido)
+}
+
+section.formcontato textarea.formcontato__textarea::placeholder{
+    font: normal 400 16px 'Raleway', sans-serif;
+}
+
+section.formcontato input.formcontato__input::placeholder{
+    font: normal 400 16px 'Raleway', sans-serif;
+}
