@@ -1,0 +1,65 @@
+
+section.experience{
+    background-color: var(--colorFondoSecundario);
+    padding: 3%;
+    margin: 2%;
+}
+
+section.experience h2.experience__section__title{
+    font: normal 500 32px 'Raleway', sans-serif;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+section.experience div.experiencie__box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 3%;
+    align-items: center;
+}
+
+section.experience h2.experience__title{
+    font: normal 700 22px 'Raleway', sans-serif;
+    line-height: 26px;
+    color: var(--colorTituloText);
+    align-items: center;
+
+}
+
+section.experience div.experience__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
+}   
+   
+section.experience h3.experience__text{
+    font: normal 500 16px 'Raleway', sans-serif;
+    line-height: 19px;
+    color: var(--colorTituloText);
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+section.experience div.experience__description{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+}
+
+section.experience button.experiencia__botao--repo{
+   width: 100px;
+   height: 50px;
+}
+
+section.experience button.experience__botao--demo{
+   width: 100px;
+   height: 50px;
+}
+
+

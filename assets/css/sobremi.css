@@ -1,0 +1,25 @@
+section.about{
+    background-color: var(--colorFondoSecundario);
+    padding: 3%;
+    margin: 2%;
+}
+
+section.about div.about__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+}
+
+section.about div.about__container h3.about__title{
+    font: normal 500 32px 'Raleway', sans-serif;
+    margin-bottom: 2%;
+}
+
+section.about div.about__container p.about__paragraph{
+    font: normal 400 16px 'Raleway', sans-serif;
+    line-height: 19px;
+    margin-bottom: .8%;
+}
+

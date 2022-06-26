@@ -1,0 +1,51 @@
+
+/*Sección Title*/
+
+
+section.title{
+    margin: 2% 100px;
+    width: 85%;
+}
+
+section.title div.title__div{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    padding: 0;
+}
+
+section.title div.title__container h2{
+    font: normal 700 45px 'Raleway', sans-serif;
+    line-height: 1.1em;
+    align-self: stretch;
+    text-align: center;
+    padding: 40px;
+    color: var(--colorTextos);
+}
+
+section.title img.title__profile {
+    width: 30%;
+    padding: auto;
+    margin: auto;
+}
+
+section.title div.title__div div.title__container h3{
+   font-size: 1.1em;
+   line-height: 1.5em;
+   width: 98%;
+   margin-bottom: 2%;
+}
+
+section.title div.title__div div.title__container ul{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12%;
+    font-size: 1em;
+    color: var(--colorTituloText);
+    line-height: 2em;
+    width: 98%;
+}

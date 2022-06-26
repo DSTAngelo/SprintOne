@@ -1,0 +1,38 @@
+:root {
+    --colorFondo:  #F5F5F5;
+    --colorTextos: #8dc9e6;
+    --colorTituloText: #464646;
+    --colorFondoSecundario: #EAF2FD;
+    --colorBox: #ffffff;
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    z-index: 1;
+  }
+
+  ol, ul,li {
+    list-style: none;
+    }
+  
+body {
+   background-color: var(--colorFondo); /* #F5F5F5 */
+   font-family: 'Raleway', sans-serif;
+   -webkit-text-size-adjust: 100%;
+   -webkit-font-smoothing: antialiased;
+   width: 1330px;
+   height:5200px;
+}
+
+
+ section.general{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0px;
+    gap: 32px;
+ }

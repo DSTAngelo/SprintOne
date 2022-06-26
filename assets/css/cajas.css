@@ -1,0 +1,75 @@
+/* SKILL */
+
+section.skills{
+    padding: 1% 2% 2% 2%;
+    margin: 0.5%;
+}
+
+section.skills h3.skills__title{
+    font: normal 500 32px 'Raleway', sans-serif;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+section.skills div.skills__line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+section.skills div.skills__box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 16px;
+    width: 176px;
+    height: 176px;
+    background-color: var(--colorBox);
+}
+
+section.skills li.skills__name{
+    font: normal 700 14px 'Raleway', sans-serif;
+    line-height: 1.5em;
+    color: var(--colorTituloText);
+    margin-top: 0.2em;
+}
+
+/* HOBBIES */
+
+section.hobbies{
+    padding: 1% 2% 2% 2%;
+    margin: 0.5%;
+}
+
+section.hobbies h3.hobbies__title{
+    font: normal 500 32px 'Raleway', sans-serif;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+section.hobbies div.hobbies__line{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+section.hobbies div.hobbies__box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 16px;
+    width: 176px;
+    height: 176px;
+    background-color: var(--colorBox);
+}
+
+section.hobbies li.hobbies__name{
+    font: normal 700 14px 'Raleway', sans-serif;
+    line-height: 1.5em;
+    color: var(--colorTituloText);
+    margin-top: 0.2em;
+}

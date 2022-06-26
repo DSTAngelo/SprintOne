@@ -1,0 +1,37 @@
+section.academic{
+    background-color: var(--colorFondoSecundario);
+    padding: 3%;
+    margin: 2%;
+}
+
+section.academic h2.academic__title{
+    font: normal 500 32px 'Raleway', sans-serif;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+
+section.academic div.academic__courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section.academic li.academic__courses__item__img{
+    background-color: var(--colorBox);
+    justify-content: center;
+    align-items: center;
+    padding: 78px 88px;
+    margin-bottom: 2%;
+}
+
+section.academic li.academic__courses__item__title{
+    font: normal 700 22px 'Raleway', sans-serif;
+}
+
+section.academic li.academic__courses__item__subtitle{
+    font: normal 500 16px 'Raleway', sans-serif;
+    line-height: 19px;
+}
+
+
