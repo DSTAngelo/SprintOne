@@ -8,6 +8,7 @@ section.about div.about__container{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    text-align: justify;
     padding: 0px;
     gap: 10px;
 }
@@ -22,4 +23,30 @@ section.about div.about__container p.about__paragraph{
     line-height: 19px;
     margin-bottom: .8%;
 }
+
+/*------------------ @media  min-width: 768px  ------------------*/
+@media only screen and (max-width: 768px) {
+ 
+    section.about{
+        padding: 5%;
+        margin: 2%;
+    }
+
+    section.about div.about__container{
+        gap: 10px;
+    }
+
+    section.about div.about__container h3.about__title{
+        font: normal 700 22px 'Raleway', sans-serif;
+        
+    }
+
+    section.about div.about__container p.about__paragraph{
+        line-height: 18px;
+        margin-bottom: .8%;
+    }
+}
+/*------------------- Fin del Responsive -----------------------*/
+/*--------------------------------------------------------------*/
+
 

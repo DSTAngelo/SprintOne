@@ -1,41 +1,89 @@
 :root {
-    --colorFondo:  #F5F5F5;
-    --colorTextos: #8dc9e6;
-    --colorTextosSecundario: #ffffff;
-    --colorTituloText: #464646;
-    --colorFondoSecundario: #EAF2FD;
-    --colorBox: #ffffff;
-    --ColorBotonEncendido: #2A7AE4;
-    
-  }
-  
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    z-index: 1;
-  }
-
-  ol, ul,li {
-    list-style: none;
-    }
-  
-body {
-   background-color: var(--colorFondo); /* #F5F5F5 */
-   font-family: 'Raleway', sans-serif;
-   -webkit-text-size-adjust: 100%;
-   -webkit-font-smoothing: antialiased;
-   width: 1330px;
-   height:5200px;
+  --colorFondo: #f5f5f5;
+  --colorTextos: #8dc9e6;
+  --colorTextosSecundario: #ffffff;
+  --colorTituloText: #464646;
+  --colorFondoSecundario: #eaf2fd;
+  --colorBox: #ffffff;
+  --ColorBotonEncendido: #2a7ae4;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  z-index: 1;
+}
 
- section.general{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding:0px;
-    gap: 32px;
- }
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+body {
+  background-color: var(--colorFondo); /* #F5F5F5 */
+  font-family: "Raleway", sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+  height: 100%;
+}
+
+section.general {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 32px;
+}
+
+/* ----------------- Inicio del Responsive ----------------------*/
+/*------------------ @media  min-width: 1920px ------------------*/
+@media only screen and (min-width: 1920px) {
+  /* 1920px * 900 Probado http://responsivetesttool.com/*/
+}
+/*------------------ @media  min-width: 1600px ------------------*/
+@media only screen and (min-width: 1680px) {
+  /* 1920px * 1050 Probado http://responsivetesttool.com/*/
+}
+/*------------------ @media  min-width: 1440px ------------------*/
+@media only screen and (min-width: 1440px) {
+  /* 1440px * 900 Probado http://responsivetesttool.com/*/
+}
+/*------------------ @media  min-width: 1366px ------------------*/
+@media only screen and (min-width: 1366px) {
+  /* 1366px * 768 Probado http://responsivetesttool.com/*/
+  /* Se modifico archivo CSS de Expe_profesional */
+}
+/*------------------ @media  min-width: 1280px ------------------*/
+@media only screen and (min-width: 1280px) {
+  /* 1280px * 800 Probado http://responsivetesttool.com/*/
+  /* Se modifico archivo CSS de Expe_profesional */
+  /* se modifico archivo CSS de Contacto */
+}
+/*------------------ @media  min-width: 1024px ------------------*/
+@media only screen and (max-width: 1024px) {
+  /* 1024px * 768 Probado http://responsivetesttool.com/*/
+  /* Se modifico archivo CSS de menu */
+  /* se modifico archivo CSS de forma_Academica*/
+  /* se modifico archivo CSS de Experiencia Profesional */
+  /* se modifico archivo CSS de contactos */
+  section.formcontato img.formcontato__img {
+    display: none;
+  }
+}
+/*------------------ @media  min-width: 768px  ------------------*/
+@media only screen and (max-width: 768px) {
+  /* 768px * 1024px Probado http://responsivetesttool.com/*/
+  /* Se modifico archivo CSS de Title */
+  /* Se modifico archivo CSS de menu */
+
+  section.menu nav ul.menu__list li:nth-child(-n + 5) {
+    display: none;
+  }
+}
+/*------------------- Fin del Responsive -----------------------*/
+/*--------------------------------------------------------------*/

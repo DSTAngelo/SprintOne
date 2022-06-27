@@ -15,10 +15,51 @@ section.menu nav ul.menu__list li a.active:hover {
         text-decoration: underline;
     }
 
+/* Skill and Hobbies Box */
+
+section.skills div.skills__box{
+    border-color: var(--colorTextos);
+    border-radius: 20px;
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    -ms-border-radius: 20;
+    -o-border-radius: 20;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    -webkit-box-shadow: 0px 10px 20px -11px var(--colorTextos);
+         box-shadow: 0px 10px 20px -11px var(--colorTextos);
+    
+}
+
+
+
+section.skills div.skills__box:hover{
+    -webkit-box-shadow: 0px 10px 20px -11px var(--ColorBotonEncendido);
+         box-shadow: 0px 10px 20px -11px var(--ColorBotonEncendido);
+}
+
+section.hobbies div.hobbies__box{
+     border-color: var(--colorTextos);
+     border-radius: 20px;
+     -webkit-border-radius: 20;
+     -moz-border-radius: 20;
+     -ms-border-radius: 20;
+     -o-border-radius: 20;
+     -webkit-transition: 0.4s;
+     transition: 0.4s;
+     -webkit-box-shadow: 0px 10px 20px -11px var(--colorTextos);
+           box-shadow: 0px 10px 20px -11px var(--colorTextos);
+}
+
+section.hobbies div.hobbies__box:hover{
+    -webkit-box-shadow: 0px 10px 20px -11px var(--ColorBotonEncendido);
+         box-shadow: 0px 10px 20px -11px var(--ColorBotonEncendido);
+}
+
 /* Formacion Academica*/
 
 section.academic li.academic__courses__item__img{
-     border-color: var(--ColorBotonEncendido);
+    border-color: var(--ColorBotonEncendido);
     border-radius: 20px;
     -webkit-border-radius: 20;
     -moz-border-radius: 20;
@@ -30,6 +71,10 @@ section.academic li.academic__courses__item__img{
          box-shadow: 0px 14px 20px -11px var(--ColorBotonEncendido);
 }
 
+section.academic li.academic__courses__item__img:hover{
+    -webkit-box-shadow: 0px 10px 20px -11px var(--ColorBotonEncendido);
+         box-shadow: 0px 10px 20px -11px var(--ColorBotonEncendido);
+}
 
 
 /* Experiencia Profesional Imagenes Efectos*/ 

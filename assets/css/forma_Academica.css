@@ -27,11 +27,91 @@ section.academic li.academic__courses__item__img{
 
 section.academic li.academic__courses__item__title{
     font: normal 700 22px 'Raleway', sans-serif;
+    line-height: 19px;
+    margin-left: 5%;
 }
 
 section.academic li.academic__courses__item__subtitle{
     font: normal 500 16px 'Raleway', sans-serif;
     line-height: 19px;
+    margin-left: 5%;
+}
+
+/* ------------------ Inicio del Responsive ----------------------*/
+/*------------------ @media  min-width: 1024px ------------------*/
+
+@media only screen and (min-width: 1024px) {
+
+  /* Formación Académica */
+
+  section.academic li.academic__courses__item__title  {
+    text-align: center;
+    margin-left: 0%;
+    line-height: 32px;
+  }
+    section.academic li.academic__courses__item__subtitle {
+        text-align: center;
+        margin-left: 0%;
+        margin-bottom: 5%;
+    }
+
+}
+/*------------------ @media  min-width: 768px  ------------------*/
+@media only screen and (max-width: 768px) {
+
+    section.academic li.academic__courses__item__title  {
+        text-align: center;
+        margin-left: 0%;
+        line-height: 32px;
+    }
+
+    section.academic li.academic__courses__item__subtitle {
+        font: normal 500 14px 'Raleway', sans-serif;
+        text-align: center;
+        line-height: 10px;
+        margin-left: 0%;
+        margin-bottom: 7%;
+    }
+}
+
+/*------------------ @media  max-width: 360px  -------------------*/
+
+@media only screen and (max-width: 360px) {
+
+    section.academic {
+        padding: 5%;
+    }
+
+    section.academic h2.academic__title{
+        font: normal 700 22px 'Raleway', sans-serif;
+        line-height: 26px;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+
+    section.academic li.academic__courses__item__img{
+        padding: 40px 40px;
+    }
+
+    section.academic li.academic__courses__item__title  {
+        font: normal 700 16px 'Raleway', sans-serif;
+        text-align: center;
+        margin-left: 0%;
+        line-height: 24px;
+    }
+
+    section.academic li.academic__courses__item__subtitle {
+        font: normal 500 14px 'Raleway', sans-serif;
+        text-align: center;
+        line-height: 10px;
+        margin-left: 0%;
+        margin-bottom: 7%;
+    }
+
+
 }
 
 
+
+/*------------------- Fin del Responsive -----------------------*/
+/*--------------------------------------------------------------*/

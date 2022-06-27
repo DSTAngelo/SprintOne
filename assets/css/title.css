@@ -1,51 +1,138 @@
-
 /*Sección Title*/
 
-
-section.title{
-    margin: 2% 100px;
-    width: 85%;
+section.title {
+  margin: 2% 100px;
+  width: 85%;
 }
 
-section.title div.title__div{
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-direction: row-reverse;
-    padding: 0;
+section.title div.title__div {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: row-reverse;
+  padding: 0;
 }
 
-section.title div.title__container h2{
-    font: normal 700 45px 'Raleway', sans-serif;
-    line-height: 1.1em;
-    align-self: stretch;
-    text-align: center;
-    padding: 40px;
-    color: var(--colorTextos);
+section.title div.title__container h2 {
+  font: normal 700 45px "Raleway", sans-serif;
+  line-height: 1.1em;
+  align-self: stretch;
+  text-align: center;
+  padding: 40px;
+  color: var(--colorTextos);
 }
 
 section.title img.title__profile {
-    width: 30%;
-    padding: auto;
-    margin: auto;
+  width: 30%;
+  padding: auto;
+  margin: auto;
 }
 
-section.title div.title__div div.title__container h3{
-   font-size: 1.1em;
-   line-height: 1.5em;
-   width: 98%;
-   margin-bottom: 2%;
+section.title div.title__div div.title__container h3 {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  text-align: justify;
+  width: 98%;
+  margin-bottom: 2%;
 }
 
-section.title div.title__div div.title__container ul{
-    
-    display: flex;
-    flex-direction: row;
+section.title div.title__div div.title__container ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0px;
+  gap: 12%;
+  font-size: 1em;
+  color: var(--colorTituloText);
+  line-height: 2em;
+  width: 98%;
+}
+/* ------------------ Inicio del Responsive ----------------------*/
+/*------------------ @media  max-width: 768px  -------------------*/
+
+@media only screen and (max-width: 768px) {
+  section.title {
+    margin: 2% 3%;
+    width: 94%;
+  }
+  section.title div.title__div {
     align-items: center;
-    padding: 0px;
-    gap: 12%;
-    font-size: 1em;
+  }
+  section.title div.title__container {
+    margin-right: 4%;
+  }
+  section.title div.title__container h2 {
+    font: normal 700 22px "Raleway", sans-serif;
+    line-height: 40px;
+    text-align: justify;
+    margin-bottom: 2%;
+    padding: 20px;
     color: var(--colorTituloText);
-    line-height: 2em;
-    width: 98%;
+  }
+
+  section.title div.title__container h2.title__bio {
+    padding: 2px;
+    text-align: justify;
+    line-height: 30px;
+  }
+
+  section.title div.title__div div.title__container h3 {
+    font: normal 400 16px "Raleway", sans-serif;
+    line-height: 19px;
+    text-align: justify;
+    margin-bottom: 3%;
+
+  }
+
+  section.title div.title__div div.title__container ul {
+    font: normal 500 16px "Raleway", sans-serif;
+    line-height: 19px;
+  }
 }
+
+/*------------------ @media  min-width: 360px  ------------------*/
+
+  @media only screen and (max-width: 360px) {
+    section.title {
+      margin: 6%;
+      padding: 0;
+    }
+    
+    section.title div.title__div {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    section.title div.title__container h2.title__bio {
+      padding: 10px;
+      text-align: center;
+      line-height: 20px;
+   }
+
+    section.title div.title__container h2 {
+      font: normal 700 16px "Raleway", sans-serif;
+      line-height: 1%;
+      text-align: center;
+      margin-bottom: 2%;
+    }
+
+    section.title div.title__div div.title__container h3 {
+      font: normal 400 12px "Raleway", sans-serif;
+      line-height: 19px;
+      text-align: justify;
+      margin-bottom: 5%;
+
+  }
+    section.title div.title__div div.title__container ul {
+    font: normal 500 12px "Raleway", sans-serif;
+    line-height: 10px;
+    text-align: center;
+    gap: 3px;
+  }
+}
+
+
+
+/*------------------- Fin del Responsive -----------------------*/
+/*--------------------------------------------------------------*/

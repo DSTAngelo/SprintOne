@@ -1,86 +1,176 @@
-
-section.experience{
-    background-color: var(--colorFondoSecundario);
-    padding: 3%;
-    margin: 2%;
+section.experience {
+  background-color: var(--colorFondoSecundario);
+  padding: 3%;
+  margin: 2%;
 }
 
-section.experience h2.experience__section__title{
-    font: normal 500 32px 'Raleway', sans-serif;
-    margin-bottom: 3%;
-    text-align: center;
+section.experience h2.experience__section__title {
+  font: normal 500 32px "Raleway", sans-serif;
+  margin-bottom: 3%;
+  text-align: center;
 }
 
-section.experience div.experiencie__box{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-bottom: 3%;
-    align-items: center;
+section.experience div.experiencie__box {
+  display: flex;
+  flex-wrap: wrap;
+  /*justify-content: space-around;*/
+  justify-content: space-between;
+  margin-bottom: 3%;
+  align-items: center;
 }
 
-section.experience h2.experience__title{
-    font: normal 700 22px 'Raleway', sans-serif;
-    line-height: 26px;
-    color: var(--colorTituloText);
-    align-items: center;
-
+section.experience h2.experience__title {
+  font: normal 700 22px "Raleway", sans-serif;
+  line-height: 26px;
+  color: var(--colorTituloText);
+  align-items: center;
 }
 
-section.experience div.experience__info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 5%;
-}   
-   
-section.experience h3.experience__text{
-    font: normal 500 16px 'Raleway', sans-serif;
-    line-height: 19px;
-    color: var(--colorTituloText);
-    align-items: center;
-    margin-bottom: 3%;
+section.experience div.experience__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
 }
 
-section.experience div.experience__description{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    gap: 20px;
+section.experience h3.experience__text {
+  font: normal 500 16px "Raleway", sans-serif;
+  line-height: 19px;
+  color: var(--colorTituloText);
+  align-items: center;
+  margin-bottom: 3%;
 }
 
-
-
-
-section.experience div.experiencie__box:nth-child(3){
-    flex-direction: row-reverse;
+section.experience div.experience__description {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
 }
 
-section.experience div.experiencie__box:nth-child(5){
-    flex-direction: row-reverse;
+section.experience div.experiencie__box:nth-child(3) {
+  flex-direction: row-reverse;
+}
+
+section.experience div.experiencie__box:nth-child(5) {
+  flex-direction: row-reverse;
+}
+
+section.experience img.imagenRod {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Botones */
 
-section.experience button.experiencia__botao--repo{
-   width: 150px;
-   height: 50px;
-   border-radius: 7px;
-   border-color: var(--ColorBotonEncendido);
+section.experience button.experiencia__botao--repo {
+  width: 150px;
+  height: 50px;
+  border-radius: 7px;
+  border-color: var(--ColorBotonEncendido);
 }
 
-
-
-section.experience button.experience__botao--demo{
-   width: 150px;
-   height: 50px;
-   border-radius: 7px;
-   border-color: var(--ColorBotonEncendido);
+section.experience button.experience__botao--demo {
+  width: 150px;
+  height: 50px;
+  border-radius: 7px;
+  border-color: var(--ColorBotonEncendido);
 }
 
+/* ----------------- Inicio del Responsive ----------------------*/
+/*------------------ @media  min-width: 1366px ------------------*/
+@media only screen and (max-width: 1366px) {
+  section.experience h2.experience__title {
+    font: normal 700 22px "Raleway", sans-serif;
+    line-height: 19px;
+    padding: 10px;
+  }
+  section.experience h3.experience__text {
+    margin-bottom: 8%;
+  }
+}
 
+/*------------------ @media  min-width: 1280px ------------------*/
 
+@media only screen and (max-width: 1280px) {
+  /*Experiencia Profesional */
 
+  section.experience h2.experience__title {
+    font: normal 700 20px "Raleway", sans-serif;
+    line-height: 19px;
+    padding: 15px;
+  }
+
+  section.experience h3.experience__text {
+    font: normal 500 16px "Raleway", sans-serif;
+    line-height: 19px;
+    margin-bottom: 8%;
+  }
+}
+
+/*------------------ @media  min-width: 1024px ------------------*/
+
+@media only screen and (max-width: 1024px) {
+  /* Experiencia Profesional */
+
+  section.experience div.experiencie__box {
+    justify-content: space-around;
+  }
+}
+
+/*------------------ @media  max-width: 768px  -------------------*/
+
+@media only screen and (max-width: 768px) {
+
+    section.experience img.imagenRod {
+      margin-bottom: 5%;
+  }
+}
+
+/*------------------ @media  max-width: 360px  -------------------*/
+
+    @media only screen and (max-width: 360px) {
+
+      section.experience {
+        padding: 5%;
+      }
+
+      section.experience h2.experience__section__title {
+        font: normal 700 22px "Raleway", sans-serif;
+        line-height: 26px;
+        padding: 0%;
+        margin-bottom: 8%;
+      }
+      section.experience h2.experience__title {
+        font: normal 700 15px "Raleway", sans-serif;
+        line-height: 5px;
+      }
+      section.experience h3.experience__text {
+        font: normal 500 14px "Raleway", sans-serif;
+        line-height: 10px;
+        margin-bottom: 7%;
+      }
+
+      /* Botones */
+
+      section.experience button.experiencia__botao--repo {
+        width: 125px;
+        height: 45px;
+        border-radius: 7px;
+        border-color: var(--ColorBotonEncendido);
+      }
+
+      section.experience button.experience__botao--demo {
+        width: 125px;
+        height: 45px;
+        border-radius: 7px;
+        border-color: var(--ColorBotonEncendido);
+      }
+
+    }
+/*------------------- Fin del Responsive -------------------------*/
+/*----------------------------------------------------------------*/

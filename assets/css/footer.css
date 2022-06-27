@@ -20,3 +20,16 @@ section.footer p:nth-child(2){
     margin-left: 5%;
     color: black;
 }
+
+/*------------------ @media  min-width: 360px  ------------------*/
+@media only screen and (max-width: 360px) {
+    section.footer p{
+        font: normal 500 14px 'Raleway', sans-serif;
+    }
+    section.footer p:nth-child(2){
+        font: normal 700 14px 'Raleway', sans-serif;
+        margin-left: 4%;
+    }
+}
+/*------------------- Fin del Responsive -----------------------*/
+/*--------------------------------------------------------------*/

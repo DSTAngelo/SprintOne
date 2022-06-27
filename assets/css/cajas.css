@@ -24,7 +24,7 @@ section.skills div.skills__box{
     align-items: flex-start;
     justify-content: flex-end;
     padding: 16px;
-    width: 176px;
+    width: 15%;   /*width: 176px height:176px*/
     height: 176px;
     background-color: var(--colorBox);
 }
@@ -62,7 +62,7 @@ section.hobbies div.hobbies__box{
     align-items: flex-start;
     justify-content: flex-end;
     padding: 16px;
-    width: 176px;
+    width: 15%;   /*width: 176px height:176px*/
     height: 176px;
     background-color: var(--colorBox);
 }
@@ -73,3 +73,130 @@ section.hobbies li.hobbies__name{
     color: var(--colorTituloText);
     margin-top: 0.2em;
 }
+/* ------------------- Inicio del Responsive ---------------------*/
+/* ------------------ @media  min-width: 768px  ------------------*/
+
+/* ----------------------------- SKILL ---------------------------*/
+
+@media only screen and (max-width: 768px) {
+    section.skills div.skills__box{
+        align-items: center;
+        justify-content: center;
+        width: 30%;   /*width: 176px height:176px*/
+        height: 150px;
+        padding: 0;
+        margin-bottom: 4%;
+    }
+
+    section.skills li.skills__name{
+        font: normal 700 16px 'Raleway', sans-serif;
+        text-align: center;
+        line-height: 1.5em;
+        color: var(--colorTituloText);
+        margin-top: 0.2em;
+    } 
+
+    section.skills li.skills__img{
+        text-align: center;
+        line-height: 1.5em;
+        margin-top: 0.2em;
+    } 
+
+/* ----------------------------- HOBBIES ---------------------------*/
+
+    section.hobbies div.hobbies__box{
+        align-items: center;
+        justify-content: center;
+        width: 30%;   /*width: 176px height:176px*/
+        height: 150px;
+        padding: 0;
+        margin-bottom: 4%;
+    }
+
+    section.hobbies li.hobbies__name{
+        font: normal 700 16px 'Raleway', sans-serif;
+        text-align: center;
+        line-height: 1.5em;
+        color: var(--colorTituloText);
+        margin-top: 0.2em;
+    }
+
+    section.hobbies li.hobbies__img{
+        text-align: center;
+        line-height: 1.5em;
+        margin-top: 0.2em;
+    }
+
+}
+/*------------------ @media  min-width: 360px  ------------------*/
+@media only screen and (max-width: 360px) {
+ 
+/* ----------------- SKILL ----------------------*/
+
+    section.skills h3.skills__title{
+        font: normal 700 22px 'Raleway', sans-serif;
+        margin-bottom: 3%;
+    }
+
+    section.skills div.skills__line{
+        width: 100%;
+    }
+
+    section.skills div.skills__box{
+        align-items: center;
+        justify-content: center;
+        width: 30%;   /*width: 176px height:176px*/
+        height: 118px;
+        padding: 0;
+        margin-bottom: 4%;
+    }
+
+    section.skills li.skills__name{
+        font: normal 700 14px 'Raleway', sans-serif;
+        text-align: center;
+        line-height: 1.5em;
+        color: var(--colorTituloText);
+        margin-top: 0.2em;
+    } 
+
+    section.skills li.skills__img{
+        text-align: center;
+        line-height: 1.5em;
+        margin-top: 0.2em;
+    } 
+/* ----------------- HOBBIES ----------------------*/
+
+    section.hobbies h3.hobbies__title{
+        font: normal 700 22px 'Raleway', sans-serif;
+        margin-bottom: 3%;
+    }
+
+    section.hobbies div.hobbies__line{
+        width: 100%;
+    }
+    
+    section.hobbies div.hobbies__box{
+        align-items: center;
+        justify-content: center;
+        width: 30%;   /*width: 176px height:176px*/
+        height: 118px;
+        padding: 0;
+        margin-bottom: 4%;
+    }
+
+    section.hobbies li.hobbies__name{
+        font: normal 700 14px 'Raleway', sans-serif;
+        text-align: center;
+        line-height: 1.5em;
+        color: var(--colorTituloText);
+        margin-top: 0.2em;
+    }
+
+    section.hobbies li.hobbies__img{
+        text-align: center;
+        line-height: 1.5em;
+        margin-top: 0.2em;
+    }
+}
+/*------------------- Fin del Responsive -----------------------*/
+/*--------------------------------------------------------------*/

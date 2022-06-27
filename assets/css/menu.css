@@ -7,7 +7,6 @@
     align-items: center;
     padding: 32px 0px;
     margin: 0 90px;
-    /* width: 1136px; height: 88px; */
  }
 
   header.menu__header {
@@ -16,24 +15,23 @@
     align-items: center;
     padding: 0px;
     gap: 20px;
-    /* width: 134px; height: 24px; */
     font: normal 700 16px 'Raleway', sans-serif;
     line-height: 19px;
     color: var(--colorTituloText);
   }
 
   section.menu nav ul.menu__list {
-        display: flex;
-        justify-content: space-between;
+       display: flex;
+       justify-content: space-between;
         font-size: 16px;
         padding: 0px;
-        gap: 2px;
+        gap: 0px;
         order: 4;
         flex-grow: 0;
     }
 
     section.menu nav ul.menu__list li {
-        display: flex;
+     /*   display: flex;*/
         align-items: center;
         margin-right: 20px;
         font: normal 500 20px 'Raleway', sans-serif;
@@ -51,3 +49,21 @@
         font: normal bold 20px 'Raleway', sans-serif;
     }
 
+/* ----------------- Inicio del Responsive ----------------------*/
+/*------------------ @media  min-width: 360px  ------------------*/
+  @media only screen and (max-width: 360px) {
+    section.menu {
+        padding: 10px 0px;
+        margin: 2% 20px;
+    }
+
+    header.menu__header {
+        font: normal 400 12px 'Raleway', sans-serif;
+    }
+
+   section.menu nav ul.menu__list li:nth-child(6){
+        font: normal 400 12px 'Raleway', sans-serif;
+   }
+}
+/*------------------- Fin del Responsive -----------------------*/
+/*--------------------------------------------------------------*/
