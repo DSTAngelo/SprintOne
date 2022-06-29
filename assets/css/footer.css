@@ -11,7 +11,7 @@ section.footer div.footer__rodape{
 }
 
 section.footer p{
-    font: normal 700 22px 'Raleway', sans-serif;
+    font: normal 700 18px 'Raleway', sans-serif;
     line-height: 19px;
     color: var(--colorTituloText);
 }

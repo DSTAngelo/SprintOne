@@ -109,21 +109,21 @@
                 </div>
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"><img class ="img_tarjeta" src="assets\img\htlm.png"></li>
+                        <li class="skills__img"><img class ="img_tarjeta" src="assets\img\html_ico.png"></li>
                         <li class="skills__name"> HTML 5</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img class ="img_tarjeta" src="assets\img\js_icon.png" alt=""></li>
+                        <li class="skills__img"> <img class ="img_tarjeta" src="assets\img\javascript.png" alt=""></li>
                         <li class="skills__name">Javascript</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img class ="img_tarjeta" src="assets\img\css_icon.png" alt=""> </li>
+                        <li class="skills__img"> <img class ="img_tarjeta" src="assets\img\CSS.png" alt=""> </li>
                         <li class="skills__name">CSS</li>
                     </ul>
                 </div>
@@ -333,11 +333,12 @@
                     </div>
                     <div class="formcontato__form_total">
                         <form class="formcontato__form" name="form">
-                            <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                            <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                            <input class="formcontato__input" type="text" name="asunto" placeholder="Asunto">
-                            <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
-                            <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                            <input id = "nombre_input" class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
+                            <input id = "mail_input" class="formcontato__input" type="email" name="email" placeholder="E-mail">
+                            <input id = "asunto_input" class="formcontato__input" type="text" name="asunto" placeholder="Asunto">
+                            <textarea id = "mensaje_text" class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                            <button type="submit" class="formcontato__botao" id="enviar" onclick="validacion_cajas()">Enviar mensaje</button>
+                            <div><label id = "label_contenido" class="error_label"></label></div>
                         </form>
                     </div>
                 </div>
@@ -352,7 +353,10 @@
             </div>
         </section>
     </div>
- <!-- Script del documento JavaScript -->
-<script src="assets/js/validacion.js"></script>
+<!-- Script del documento JavaScript -->
+
+<script src="./assets/js/validacion.js"></script>
+
+
 </body>
 </html>

@@ -89,9 +89,13 @@ section.formcontato button.formcontato__botao{
    width: 150px;
    height: 50px;
    border-radius: 7px;
-   border-color: var(--ColorBotonEncendido);
-   color: var(--ColorBotonEncendido)
+   border-color: var(--colorTextos);
+   background-color: var(--colorTextos);
+   color: var(--colorBox);
+   margin-bottom: 4%;
 }
+
+
 
 section.formcontato textarea.formcontato__textarea::placeholder{
     font: normal 400 16px 'Raleway', sans-serif;
@@ -100,6 +104,13 @@ section.formcontato textarea.formcontato__textarea::placeholder{
 section.formcontato input.formcontato__input::placeholder{
     font: normal 400 16px 'Raleway', sans-serif;
 }
+
+section.formcontato label.error_label{
+    font: normal 400 16px 'Raleway', sans-serif;
+    color: var(--colorTextos);
+    margin-bottom: 2%;
+}
+
 
 /* ----------------- Inicio del Responsive ----------------------*/
 

@@ -66,7 +66,7 @@ section.title div.title__div div.title__container ul {
   section.title div.title__container h2 {
     font: normal 700 22px "Raleway", sans-serif;
     line-height: 40px;
-    text-align: justify;
+    text-align: center;
     margin-bottom: 2%;
     padding: 20px;
     color: var(--colorTituloText);
@@ -74,7 +74,7 @@ section.title div.title__div div.title__container ul {
 
   section.title div.title__container h2.title__bio {
     padding: 2px;
-    text-align: justify;
+    text-align: center;
     line-height: 30px;
   }
 
