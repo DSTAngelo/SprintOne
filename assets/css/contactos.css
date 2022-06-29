@@ -81,7 +81,7 @@ section.formcontato textarea.formcontato__textarea{
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
-    margin-bottom: 2.9em;
+    margin-bottom: 1.5em;
     resize: none;
 }
 
@@ -91,7 +91,9 @@ section.formcontato button.formcontato__botao{
    border-radius: 7px;
    border-color: var(--colorTextos);
    background-color: var(--colorTextos);
-   color: var(--colorBox);
+   color: black;
+   font-weight: bold;
+   font-size: 16px;
    margin-bottom: 4%;
 }
 

@@ -1,3 +1,14 @@
+function recarga_pagina() {
+  
+  setTimeout(function () {
+    windows.location.reload();
+    event.preventDefault();
+  }, 5000);
+   
+}
+
+
+
 function limpiar_cajas() {
   var nombre = document.querySelector("#nombre_input");
   var mail = document.querySelector("#mail_input");
@@ -32,11 +43,12 @@ function validacion_cajas() {
     event.preventDefault();
     return false;
   } else {
+    alert("Datos Enviados");
     console.log("datos enviados"); 
     document.getElementById("label_contenido").innerHTML =
       "Datos enviados correctamente";
-      limpiar_cajas();
-    event.preventDefault();
+    limpiar_cajas();
+    recarga_pagina();
     return true;
   }
 }

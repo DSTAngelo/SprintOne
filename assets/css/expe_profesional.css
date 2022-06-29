@@ -120,6 +120,10 @@ section.experience button.experience__botao--demo {
   section.experience div.experiencie__box {
     justify-content: space-around;
   }
+
+   section.experience img.imagenRod {
+      margin-bottom: 3%;
+  }
 }
 
 /*------------------ @media  max-width: 768px  -------------------*/

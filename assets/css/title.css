@@ -13,14 +13,35 @@ section.title div.title__div {
   padding: 0;
 }
 
+section.title div.title__container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+ 
+
 section.title div.title__container h2 {
   font: normal 700 45px "Raleway", sans-serif;
   line-height: 1.1em;
   align-self: stretch;
   text-align: center;
-  padding: 40px;
+  padding: 10px;
   color: var(--colorTextos);
 }
+
+ section.title div.title__container h2.title__bio {
+      padding: 10px;
+      text-align: center;
+      line-height: 20px;
+      margin-top: 1em;
+   }
+
+ section.title div.title__container h2.title__bio_descrip{
+     font: normal 500 36px "Raleway", sans-serif;
+     margin-bottom: 0.5em;
+   }
 
 section.title img.title__profile {
   width: 30%;
@@ -32,7 +53,7 @@ section.title img.title__profile {
 section.title div.title__div div.title__container h3 {
   font-size: 1.1em;
   line-height: 1.5em;
-  text-align: justify;
+  text-align: center;
   width: 98%;
   margin-bottom: 2%;
 }
@@ -110,6 +131,8 @@ section.title div.title__div div.title__container ul {
       text-align: center;
       line-height: 20px;
    }
+
+  
 
     section.title div.title__container h2 {
       font: normal 700 16px "Raleway", sans-serif;

@@ -52,7 +52,8 @@
         <div class="title__div">
             <img class="title__profile" src="assets\img\perfil.png">
             <div class="title__container">
-                <h2 class="title__bio">Hola, mi nombre es Angel y construyo paginas web</h2>
+                <h2 class="title__bio">Angel Fuquen</h2>
+                <h2 class="title__bio_descrip">Diseñador Paginas Web</h2>
                 <h3 class="title__subsection">Soy formado en mantenimiento informatico  y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
                 <ul class="title__network">
                      <!-- Pon los enlaces de tus redes sociales favoritas -->
@@ -79,7 +80,7 @@
                 generar resultados</p>
 
             <!-- Si quieres, pon tú firma acá! -->
-            <img src="assets\img\signature.png">
+            <img src="assets\img\sign.png">
         </div>
     </section>
 
@@ -185,7 +186,7 @@
             <div class="academic__courses__box">
                 <ul class="academic__courses__list">
                     <!-- Pon el logotipo de la institución de formación -->
-                    <li class="academic__courses__item__img"><img src="assets\img\neetwork.png"></li>
+                    <li class="academic__courses__item__img"><img class ="img_border" src="assets\img\neetwork.png"></li>
                     <li class="academic__courses__item__title"><h4>Máster en Marketing Digital </h4></li>
                     <li class="academic__courses__item__subtitle"><p>2020 - Neetwork Business School</p></li>
                 </ul>
@@ -204,6 +205,15 @@
                     <li class="academic__courses__item__img"><img src="assets\img\alura_logo.png"></li>
                     <li class="academic__courses__item__title"><h4>Formación en UX Design</h4></li>
                     <li class="academic__courses__item__subtitle"><p>En curso - Alura</p></li>
+                </ul>
+            </div>
+
+            <div class="academic__courses__box">
+                <ul class="academic__courses__list">
+                    <!-- Pon el logotipo de la institución de formación -->
+                    <li class="academic__courses__item__img"><img class ="img_border" src="assets\img\AdExpert.png"></li>
+                    <li class="academic__courses__item__title"><h4>Marketing digital</h4></li>
+                    <li class="academic__courses__item__subtitle"><p>En curso - Digital AdExpert</p></li>
                 </ul>
             </div>
         </div>
@@ -225,12 +235,11 @@
                 <h3 class="experience__text">Challenge Alura Codificador </h3>
                     <div class="experience__description">
                         <!-- Pon el enlace del proyecto en Github o GithubPages -->
-                            <span class="experience__repo"><a href="https://github.com/alura-challenges/challenge-one-encriptador-latam"><button class="experiencia__botao--repo" id="botton_AD">Repositório</button></a></span>
+                            <span class="experience__repo"><a href="https://github.com/DSTAngelo/Proyect_One">
+                                <button class="experiencia__botao--repo" id="botton_AD">Repositório</button></a></span>
                             <span class="experience__demo">
-                            <a href="">
-                                <button class="experience__botao--demo" id="botton_AD">Ver demo</button>
-                            </a>
-                        </span>
+                            <a href="https://dstangelo.github.io/Proyect_One/">
+                                <button class="experience__botao--demo" id="botton_AD">Ver demo</button></a></span>
                     </div>
             </div>
         </div>  
@@ -250,12 +259,12 @@
                         class="experience__description">
                         <!-- Pon el enlace del proyecto en Github o GithubPages -->
                         <span class="experience__repo">
-                            <a href="https://github.com/alura-challenges/challenge-one-encriptador-latam">
+                            <a href="https://github.com/DSTAngelo/Proyect_One">
                                 <button class="experiencia__botao--repo" id="botton_AD">Repositório</button>
                             </a>
                         </span>
                         <span class="experience__demo">
-                            <a href="">
+                            <a href="https://dstangelo.github.io/Proyect_One/">
                                 <button class="experience__botao--demo" id="botton_AD">Ver demo</button>
                             </a>
                         </span>
@@ -278,12 +287,12 @@
                             class="experience__description">
                             <!-- Pon el enlace del proyecto en Github o GithubPages -->
                             <span class="experience__repo">
-                                <a href="https://github.com/alura-challenges/challenge-one-encriptador-latam">
+                                <a href="https://github.com/DSTAngelo/Horca">
                                     <button class="experiencia__botao--repo" id="botton_AD">Repositório</button>
                                 </a>
                             </span>
                             <span class="experience__demo">
-                                <a href="">
+                                <a href="https://dstangelo.github.io/Horca/">
                                     <button class="experience__botao--demo" id="botton_AD">Ver demo</button>
                                 </a>
                             </span>
@@ -306,12 +315,12 @@
                                 class="experience__description">
                                 <!-- Pon el enlace del proyecto en Github o GithubPages -->
                                 <span class="experience__repo">
-                                    <a href="https://github.com/alura-challenges/challenge-one-encriptador-latam">
+                                    <a href="https://github.com/DSTAngelo/Horca">
                                         <button class="experiencia__botao--repo" id="botton_AD">Repositório</button>
                                     </a>
                                 </span>
                                 <span class="experience__demo">
-                                    <a href="">
+                                    <a href="https://dstangelo.github.io/Horca/">
                                         <button class="experience__botao--demo" id="botton_AD">Ver demo</button>
                                     </a>
                                 </span>
@@ -323,7 +332,7 @@
     <section class="formcontato" id="contacto">
             <div  class="formcontato__contacto">
                 <div class="formcontato--esquerda">
-                    <img class="formcontato__img" src="assets\img\contact_image.png">
+                    <img class="formcontato__img" src="assets\img\cell.png">
                 </div>
                 <div class="formulario">
                     <div class="formcontato__text">
@@ -335,8 +344,8 @@
                         <form class="formcontato__form" name="form">
                             <input id = "nombre_input" class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
                             <input id = "mail_input" class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                            <input id = "asunto_input" class="formcontato__input" type="text" name="asunto" placeholder="Asunto">
-                            <textarea id = "mensaje_text" class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                            <input id = "asunto_input" class="formcontato__input" type="text" name="asunto" placeholder="Asunto" maxlength="50">
+                            <textarea id = "mensaje_text" class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje" maxlength="300"></textarea>
                             <button type="submit" class="formcontato__botao" id="enviar" onclick="validacion_cajas()">Enviar mensaje</button>
                             <div><label id = "label_contenido" class="error_label"></label></div>
                         </form>

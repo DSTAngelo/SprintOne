@@ -71,6 +71,9 @@ section.general {
   /* se modifico archivo CSS de forma_Academica*/
   /* se modifico archivo CSS de Experiencia Profesional */
   /* se modifico archivo CSS de contactos */
+  section.menu nav ul.menu__list li:nth-child(-n + 5) {
+    display: none;}
+    
   section.formcontato img.formcontato__img {
     display: none;
   }

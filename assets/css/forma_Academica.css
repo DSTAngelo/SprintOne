@@ -23,6 +23,16 @@ section.academic li.academic__courses__item__img{
     align-items: center;
     padding: 78px 88px;
     margin-bottom: 5%;
+    
+}
+
+section.academic img.img_border{
+    border: 1px solid var(--colorTextos);
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
 }
 
 section.academic li.academic__courses__item__title{
@@ -38,6 +48,19 @@ section.academic li.academic__courses__item__subtitle{
 }
 
 /* ------------------ Inicio del Responsive ----------------------*/
+
+/* ------------------ @media  min-width: 1280px  ------------------*/
+@media only screen and (max-width: 1280px) {
+    section.academic li.academic__courses__item__img{
+    background-color: var(--colorBox);
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px;
+    margin-bottom: 5%;
+    
+}
+}
+
 /*------------------ @media  min-width: 1024px ------------------*/
 
 @media only screen and (min-width: 1024px) {
