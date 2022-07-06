@@ -172,8 +172,8 @@
 
                 <div class="hobbies__box">
                     <ul>
-                        <li class="hobbies__img"> <img class ="img_tarjeta" src="assets\img\camera_icon.png" alt=""> </li>
-                        <li class="hobbies__name">Fotografia</li>
+                        <li class="hobbies__img"> <img class ="img_tarjeta" src="assets\img\Gym.png" alt=""> </li>
+                        <li class="hobbies__name">WorkOut</li>
                     </ul>
                 </div>
         </div>
@@ -341,13 +341,18 @@
                         <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
                     </div>
                     <div class="formcontato__form_total">
-                        <form class="formcontato__form" name="form">
+                        <form action="" class="formcontato__form" id="formcontato__form" name="form">
                             <input id = "nombre_input" class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
                             <input id = "mail_input" class="formcontato__input" type="email" name="email" placeholder="E-mail">
                             <input id = "asunto_input" class="formcontato__input" type="text" name="asunto" placeholder="Asunto" maxlength="50">
-                            <textarea id = "mensaje_text" class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje" maxlength="300"></textarea>
-                            <button type="submit" class="formcontato__botao" id="enviar" onclick="validacion_cajas()">Enviar mensaje</button>
-                            <div><label id = "label_contenido" class="error_label"></label></div>
+                            <textarea id = "mensaje_text" class="formcontato__textarea" rows="5" cols="40"  name="mensaje" placeholder="Mensaje" maxlength="300"></textarea>
+                            
+                            <div>
+                                <div class="formcontato__information">
+                                    <button type="submit" class="formcontato__botao" id="enviar">Enviar mensaje</button>
+                                    <label id = "label_contenido" class="error_label"></label>
+                                </div>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -362,9 +367,12 @@
             </div>
         </section>
     </div>
-<!-- Script del documento JavaScript -->
+<!-- Script del documento JavaScript 
 
 <script src="./assets/js/validacion.js"></script>
+-->
+
+<script src="./assets/js/formulario_contacto.js"></script>
 
 
 </body>

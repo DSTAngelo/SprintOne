@@ -1,3 +1,4 @@
+/*
 function recarga_pagina() {
   
   setTimeout(function () {
@@ -52,3 +53,4 @@ function validacion_cajas() {
     return true;
   }
 }
+*/

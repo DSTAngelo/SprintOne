@@ -64,6 +64,16 @@ section.formcontato input.formcontato__input{
     -o-border-radius: 4px;
 }
 
+.input-correcto{
+  color:  var(--ColorAprobado);
+
+}
+.input-incorrecto{
+   color: var(--ColorError);
+   
+}
+
+
 section.formcontato textarea.formcontato__textarea{
     display: flex;
     background-color: var(--colorBox);
@@ -94,7 +104,6 @@ section.formcontato button.formcontato__botao{
    color: black;
    font-weight: bold;
    font-size: 16px;
-   margin-bottom: 4%;
 }
 
 
@@ -107,10 +116,17 @@ section.formcontato input.formcontato__input::placeholder{
     font: normal 400 16px 'Raleway', sans-serif;
 }
 
+.formcontato__information{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 200px 400px;
+    grid-template-rows: 1fr;
+    align-items: center;
+}
+
 section.formcontato label.error_label{
-    font: normal 400 16px 'Raleway', sans-serif;
-    color: var(--colorTextos);
-    margin-bottom: 2%;
+    font: normal 700 16px 'Raleway', sans-serif;
+    color: var(--ColorError);
 }
 
 
@@ -168,7 +184,6 @@ section.formcontato label.error_label{
 
     section.formcontato textarea.formcontato__textarea{
         font: normal 400 14px 'Raleway', sans-serif;
-        margin-bottom: 1.5em;
     }
 
     section.formcontato input.formcontato__input::placeholder{
@@ -179,9 +194,26 @@ section.formcontato label.error_label{
     }
 
     section.formcontato button.formcontato__botao{
-        width: 125px;
+        width: 94%;
         height: 45px;
         }
+
+    .formcontato__information{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+        grid-row-gap: 8px;
+        align-items: center;
+        justify-items: center
+    }
+    
+    
+        section.formcontato label.error_label{
+        font: normal 500 10px 'Raleway', sans-serif;
+        color: var(--ColorError);
+    }
+
+
 }
 /*------------------- Fin del Responsive -----------------------*/
 /*--------------------------------------------------------------*/

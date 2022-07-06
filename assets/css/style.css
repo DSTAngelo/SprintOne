@@ -6,6 +6,8 @@
   --colorFondoSecundario: #eaf2fd;
   --colorBox: #ffffff;
   --ColorBotonEncendido: #2a7ae4;
+  --ColorError: #e40c0c;
+  --ColorAprobado: #40e42a;
 }
 
 * {
